@@ -1,15 +1,19 @@
-# GeekOS 
-桂电2021年操作系统课设
+# GeekOS (GOSFS文件系统)
+桂电2021年操作系统课设源码，主要实现了project5:GOSFS文件系统和project6:管道操作
 
 > project origin : GUET_Operation_Course_Design
 >
-> update time : 2021.5.2
+> last update time : 2021.5.2
 >
 > modify author: GUET_diadestiny
 
 * 完善分页机制中的缺页中断处理(project4)
 * 实现GOSFS文件系统的基本操作(project5)
 * 实现基于管道操作的进程通信(project6)
+
+同时本项目支持课设报告中的project2、project5、project6、部分project3、部分project4的功能，具体演示图查看对应课设报告部分。
+
+因为网上已经有不少往届学长学姐关于project0、project1、project2、project3、project4的博客和源码，因此本项目主要实现project5和project6
 
 ## 1. 运行环境
 
@@ -50,4 +54,3 @@
 
 >本项目改自于国外bos教学操作系统
 >
->本项目为课设报告中的project2、project5、project6、部分project3、部分project4的源码。

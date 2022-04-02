@@ -1,0 +1,44 @@
+Index: user.c
+===================================================================
+--- user.c	(Revision 88)
++++ user.c	(Arbeitskopie)
+@@ -102,6 +102,7 @@
+  *   pThread - reference to Kernel_Thread pointer where a pointer to
+  *     the newly created user mode thread (process) should be
+  *     stored
++ *   uid - the user id of the new process
+  * Returns:
+  *   The process id (pid) of the new process, or an error code
+  *   if the process couldn't be created.  Note that this function
+@@ -110,7 +111,7 @@
+  */
+ int Spawn(const char *program, const char *command,
+     struct File *stdInput, struct File *stdOutput,
+-    struct Kernel_Thread **pThread)
++    struct Kernel_Thread **pThread, int uid)
+ {
+     Debug ("Spawn(): program='%s', command='%s'\n", program, command);
+ 
+@@ -134,7 +135,10 @@
+     ulong_t fileLen;
+     struct Exe_Format exeFormat;
+     struct User_Context *userContext;
++    struct  VFS_File_Stat stat;
+ 
++    rc = Stat (program, &stat);
++    if (rc < 0)  goto end;
+ 
+     rc = Read_Fully (program, &buf, &fileLen);
+     if (rc < 0)  goto end;
+@@ -154,6 +158,11 @@
+ //  rc = Clone_File(stdOutput, &userContext->iob[2]);
+ //  if (rc < 0)  goto end;
+ 
++    if (stat.isSetuid)
++        uid = stat.acls[0].uid;
++
++    userContext->eUId = uid;
++
+     *pThread = Start_User_Thread (userContext, false);
+     if (!*pThread)  { rc = EUNSPECIFIED; goto end; }
+ 

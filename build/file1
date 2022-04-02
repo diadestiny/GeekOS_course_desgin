@@ -1,0 +1,171 @@
+.:
+总用量 1212
+drwxr-xr-x 2 lin lin    4096 5月   2 22:26 common
+-rw-r--r-- 1 lin lin   27025 5月   2 22:26 depend.mak
+-rw-rw-r-- 1 lin lin 1474560 5月   2 22:26 fd_aug.img
+-rw-rw-r-- 1 lin lin  153600 5月   2 22:26 fd.img
+-rw-rw-r-- 1 lin lin       0 5月   2 22:26 file1
+drwxr-xr-x 2 lin lin    4096 5月   2 22:26 geekos
+drwxr-xr-x 2 lin lin    4096 5月   2 22:26 libc
+-rw-r--r-- 1 lin lin   12148 5月   2 22:26 Makefile
+drwxr-xr-x 2 lin lin    4096 5月   2 22:26 tools
+drwxr-xr-x 2 lin lin    4096 5月   2 22:26 user
+
+./common:
+总用量 16
+-rw-rw-r-- 1 lin lin 4932 5月   2 22:26 fmtout.o
+-rw-rw-r-- 1 lin lin 1052 5月   2 22:26 memmove.o
+-rw-rw-r-- 1 lin lin 3176 5月   2 22:26 string.o
+
+./geekos:
+总用量 1376
+-rw-rw-r-- 1 lin lin   4768 5月   2 22:26 argblock.o
+-rw-rw-r-- 1 lin lin  12544 5月   2 22:26 bget.o
+-rw-rw-r-- 1 lin lin   6532 5月   2 22:26 bitset.o
+-rw-rw-r-- 1 lin lin  18528 5月   2 22:26 blockdev.o
+-rw-rw-r-- 1 lin lin  22268 5月   2 22:26 bufcache.o
+-rw-rw-r-- 1 lin lin   9592 5月   2 22:26 consfs.o
+-rw-rw-r-- 1 lin lin   4244 5月   2 22:26 crc32.o
+-rw-rw-r-- 1 lin lin  10140 5月   2 22:26 dma.o
+-rw-rw-r-- 1 lin lin   5104 5月   2 22:26 elf.o
+-rw-rw-r-- 1 lin lin    512 5月   2 22:26 fd_boot.bin
+-rw-rw-r-- 1 lin lin  27428 5月   2 22:26 floppy.o
+-rw-rw-r-- 1 lin lin   9676 5月   2 22:26 gdt.o
+-rw-rw-r-- 1 lin lin  65832 5月   2 22:26 gosfs.o
+-rw-rw-r-- 1 lin lin  18844 5月   2 22:26 ide.o
+-rw-rw-r-- 1 lin lin   6828 5月   2 22:26 idt.o
+-rw-rw-r-- 1 lin lin   7504 5月   2 22:26 int.o
+-rw-rw-r-- 1 lin lin   2748 5月   2 22:26 io.o
+-rw-rw-r-- 1 lin lin   8976 5月   2 22:26 irq.o
+-rwxrwxr-x 1 lin lin 152576 5月   2 22:26 kernel.bin
+-rwxrwxr-x 1 lin lin 441592 5月   2 22:26 kernel.exe
+-rw-rw-r-- 1 lin lin  18002 5月   2 22:26 kernel.syms
+-rw-rw-r-- 1 lin lin  13208 5月   2 22:26 keyboard.o
+-rw-rw-r-- 1 lin lin  46936 5月   2 22:26 kthread.o
+-rw-rw-r-- 1 lin lin   6672 5月   2 22:26 lowlevel.o
+-rw-rw-r-- 1 lin lin  12596 5月   2 22:26 main.o
+-rw-rw-r-- 1 lin lin   7088 5月   2 22:26 malloc.o
+-rw-rw-r-- 1 lin lin  24188 5月   2 22:26 mem.o
+-rw-rw-r-- 1 lin lin  14824 5月   2 22:26 mqueue.o
+-rw-rw-r-- 1 lin lin  32900 5月   2 22:26 paging.o
+-rw-rw-r-- 1 lin lin  29984 5月   2 22:26 pfat.o
+-rw-rw-r-- 1 lin lin  18416 5月   2 22:26 pipefs.o
+-rw-rw-r-- 1 lin lin  24352 5月   2 22:26 scheduler.o
+-rw-rw-r-- 1 lin lin  26296 5月   2 22:26 screen.o
+-rw-rw-r-- 1 lin lin   8380 5月   2 22:26 segment.o
+-rw-rw-r-- 1 lin lin    512 5月   2 22:26 setup.bin
+-rw-rw-r-- 1 lin lin  15108 5月   2 22:26 synch.o
+-rw-rw-r-- 1 lin lin  60528 5月   2 22:26 syscall.o
+-rw-rw-r-- 1 lin lin   4504 5月   2 22:26 sysinfo.o
+-rw-rw-r-- 1 lin lin  13340 5月   2 22:26 timer.o
+-rw-rw-r-- 1 lin lin   5836 5月   2 22:26 trap.o
+-rw-rw-r-- 1 lin lin   6156 5月   2 22:26 tss.o
+-rw-rw-r-- 1 lin lin  14832 5月   2 22:26 user.o
+-rw-rw-r-- 1 lin lin  36368 5月   2 22:26 uservm.o
+-rw-rw-r-- 1 lin lin  30556 5月   2 22:26 vfs.o
+
+./libc:
+总用量 108
+-rw-rw-r-- 1 lin lin  1160 5月   2 22:26 acl.o
+-rw-rw-r-- 1 lin lin  6448 5月   2 22:26 bget.o
+-rw-rw-r-- 1 lin lin  1344 5月   2 22:26 compat.o
+-rw-rw-r-- 1 lin lin  2968 5月   2 22:26 conio.o
+-rw-rw-r-- 1 lin lin  4404 5月   2 22:26 curses.o
+-rw-rw-r-- 1 lin lin  1052 5月   2 22:26 entry.o
+-rw-rw-r-- 1 lin lin  1221 5月   2 22:26 errno.c
+-rw-rw-r-- 1 lin lin  1860 5月   2 22:26 errno.o
+-rw-rw-r-- 1 lin lin  2552 5月   2 22:26 fileio.o
+-rw-rw-r-- 1 lin lin  1040 5月   2 22:26 kernel.o
+-rw-rw-r-- 1 lin lin 40498 5月   2 22:26 libc.a
+-rw-rw-r-- 1 lin lin  1188 5月   2 22:26 mq.o
+-rw-rw-r-- 1 lin lin  2164 5月   2 22:26 process.o
+-rw-rw-r-- 1 lin lin   952 5月   2 22:26 sched.o
+-rw-rw-r-- 1 lin lin  1128 5月   2 22:26 sema.o
+-rw-rw-r-- 1 lin lin  1740 5月   2 22:26 unix.o
+
+./tools:
+总用量 12
+-rwxrwxr-x 1 lin lin 12064 5月   2 22:26 builtFat.exe
+
+./user:
+总用量 1048
+-rwxrwxr-x 1 lin lin 27092 5月   2 22:26 ae.exe
+-rw-rw-r-- 1 lin lin  7416 5月   2 22:26 ae.o
+-rwxrwxr-x 1 lin lin 19840 5月   2 22:26 a.exe
+-rw-rw-r-- 1 lin lin  1152 5月   2 22:26 a.o
+-rwxrwxr-x 1 lin lin 19820 5月   2 22:26 b.exe
+-rw-rw-r-- 1 lin lin  1212 5月   2 22:26 b.o
+-rwxrwxr-x 1 lin lin 20460 5月   2 22:26 cat.exe
+-rw-rw-r-- 1 lin lin  2296 5月   2 22:26 cat.o
+-rwxrwxr-x 1 lin lin 19724 5月   2 22:26 c.exe
+-rw-rw-r-- 1 lin lin  1092 5月   2 22:26 c.o
+-rwxrwxr-x 1 lin lin 20428 5月   2 22:26 cp.exe
+-rw-rw-r-- 1 lin lin  2256 5月   2 22:26 cp.o
+-rwxrwxr-x 1 lin lin 19856 5月   2 22:26 format.exe
+-rw-rw-r-- 1 lin lin  1356 5月   2 22:26 format.o
+-rwxrwxr-x 1 lin lin 20404 5月   2 22:26 frecv.exe
+-rw-rw-r-- 1 lin lin  1760 5月   2 22:26 frecv.o
+-rwxrwxr-x 1 lin lin 20436 5月   2 22:26 fsend.exe
+-rw-rw-r-- 1 lin lin  1804 5月   2 22:26 fsend.o
+-rwxrwxr-x 1 lin lin 19888 5月   2 22:26 fstart.exe
+-rw-rw-r-- 1 lin lin  1460 5月   2 22:26 fstart.o
+-rwxrwxr-x 1 lin lin 20240 5月   2 22:26 heap.exe
+-rw-rw-r-- 1 lin lin  1836 5月   2 22:26 heap.o
+-rwxrwxr-x 1 lin lin 19728 5月   2 22:26 hello.exe
+-rw-rw-r-- 1 lin lin  1084 5月   2 22:26 hello.o
+-rwxrwxr-x 1 lin lin 20460 5月   2 22:26 long.exe
+-rw-rw-r-- 1 lin lin  1576 5月   2 22:26 long.o
+-rwxrwxr-x 1 lin lin 20712 5月   2 22:26 ls.exe
+-rw-rw-r-- 1 lin lin  2548 5月   2 22:26 ls.o
+-rwxrwxr-x 1 lin lin 19856 5月   2 22:26 mkdir.exe
+-rw-rw-r-- 1 lin lin  1404 5月   2 22:26 mkdir.o
+-rwxrwxr-x 1 lin lin 21372 5月   2 22:26 more.exe
+-rw-rw-r-- 1 lin lin  3340 5月   2 22:26 more.o
+-rwxrwxr-x 1 lin lin 19856 5月   2 22:26 mount.exe
+-rw-rw-r-- 1 lin lin  1416 5月   2 22:26 mount.o
+-rwxrwxr-x 1 lin lin 19648 5月   2 22:26 null.exe
+-rw-rw-r-- 1 lin lin   956 5月   2 22:26 null.o
+-rwxrwxr-x 1 lin lin 21452 5月   2 22:26 p4a.exe
+-rw-rw-r-- 1 lin lin  3112 5月   2 22:26 p4a.o
+-rwxrwxr-x 1 lin lin 28792 5月   2 22:26 p5test.exe
+-rw-rw-r-- 1 lin lin 13140 5月   2 22:26 p5test.o
+-rwxrwxr-x 1 lin lin 22576 5月   2 22:26 p6test.exe
+-rw-rw-r-- 1 lin lin  4392 5月   2 22:26 p6test.o
+-rwxrwxr-x 1 lin lin 20488 5月   2 22:26 ping6.exe
+-rw-rw-r-- 1 lin lin  1908 5月   2 22:26 ping6.o
+-rwxrwxr-x 1 lin lin 20460 5月   2 22:26 ping.exe
+-rw-rw-r-- 1 lin lin  1640 5月   2 22:26 ping.o
+-rwxrwxr-x 1 lin lin 19840 5月   2 22:26 pipe.exe
+-rw-rw-r-- 1 lin lin  1360 5月   2 22:26 pipe.o
+-rwxrwxr-x 1 lin lin 20488 5月   2 22:26 pong6.exe
+-rw-rw-r-- 1 lin lin  1908 5月   2 22:26 pong6.o
+-rwxrwxr-x 1 lin lin 20428 5月   2 22:26 pong.exe
+-rw-rw-r-- 1 lin lin  1552 5月   2 22:26 pong.o
+-rwxrwxr-x 1 lin lin 19888 5月   2 22:26 ppstart.exe
+-rw-rw-r-- 1 lin lin  1376 5月   2 22:26 ppstart.o
+-rwxrwxr-x 1 lin lin 20488 5月   2 22:26 rec.exe
+-rw-rw-r-- 1 lin lin  1920 5月   2 22:26 rec.o
+-rwxrwxr-x 1 lin lin 19852 5月   2 22:26 rm.exe
+-rw-rw-r-- 1 lin lin  1324 5月   2 22:26 rm.o
+-rwxrwxr-x 1 lin lin 20080 5月   2 22:26 schedset.exe
+-rw-rw-r-- 1 lin lin  1460 5月   2 22:26 schedset.o
+-rwxrwxr-x 1 lin lin 20360 5月   2 22:26 setacl.exe
+-rw-rw-r-- 1 lin lin  1676 5月   2 22:26 setacl.o
+-rwxrwxr-x 1 lin lin 20304 5月   2 22:26 setuid.exe
+-rw-rw-r-- 1 lin lin  1532 5月   2 22:26 setuid.o
+-rwxrwxr-x 1 lin lin 24300 5月   2 22:26 shell.exe
+-rw-rw-r-- 1 lin lin  6684 5月   2 22:26 shell.o
+-rwxrwxr-x 1 lin lin 20332 5月   2 22:26 su.exe
+-rw-rw-r-- 1 lin lin  1640 5月   2 22:26 su.o
+-rwxrwxr-x 1 lin lin 19760 5月   2 22:26 sync.exe
+-rw-rw-r-- 1 lin lin  1204 5月   2 22:26 sync.o
+-rwxrwxr-x 1 lin lin 19920 5月   2 22:26 touch.exe
+-rw-rw-r-- 1 lin lin  1496 5月   2 22:26 touch.o
+-rwxrwxr-x 1 lin lin 20876 5月   2 22:26 tstwrite.exe
+-rw-rw-r-- 1 lin lin  2300 5月   2 22:26 tstwrite.o
+-rwxrwxr-x 1 lin lin 20108 5月   2 22:26 type.exe
+-rw-rw-r-- 1 lin lin  1720 5月   2 22:26 type.o
+-rwxrwxr-x 1 lin lin 20580 5月   2 22:26 wc.exe
+-rw-rw-r-- 1 lin lin  2180 5月   2 22:26 wc.o
+-rwxrwxr-x 1 lin lin 21200 5月   2 22:26 workload.exe
+-rw-rw-r-- 1 lin lin  2792 5月   2 22:26 workload.o

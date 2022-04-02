@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "array": "c",
+        "bitset": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "gosfs.h": "c",
+        "fstream": "cpp",
+        "vfs.h": "c",
+        "fileio.h": "c",
+        "process.h": "c",
+        "conio.h": "c",
+        "ostream": "c",
+        "vector": "c",
+        "blockdev.h": "c"
+    }
+}

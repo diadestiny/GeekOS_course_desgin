@@ -26,8 +26,9 @@
 * 配置GOSFS文件系统需要重点注意：
 
     >ata0-master: type=disk, mode=flat, translation=auto, path="diskc.img"...
-    >ata0-slave: type=disk, path="diskd.img" ...
-
+    >
+>ata0-slave: type=disk, path="diskd.img" ...
+  
   其中diskc.img是原生的PFAT文件系统挂载区域，注意配置加上第二行，diskd.img是GOSFS文件挂载区域。
 
 ## 2.运行步骤

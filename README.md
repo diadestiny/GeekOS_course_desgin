@@ -15,6 +15,8 @@
 
 因为网上已经有不少往届学长学姐关于project0、project1、project2、project3、project4的博客和源码，因此本项目主要实现project5和project6
 
+博客链接：https://blog.csdn.net/weixin_43723614/article/details/123926025
+
 ## 1. 运行环境
 
 笔者运行环境：真机ubuntu16.04、gcc-5.4.0、nasm-2.08.2
@@ -23,8 +25,8 @@
 
 * 配置GOSFS文件系统需要重点注意：
 
-  >ata0-master: type=disk, mode=flat, translation=auto, path="diskc.img"... 
-  >ata0-slave: type=disk, path="diskd.img" ...
+    >ata0-master: type=disk, mode=flat, translation=auto, path="diskc.img"...
+    >ata0-slave: type=disk, path="diskd.img" ...
 
   其中diskc.img是原生的PFAT文件系统挂载区域，注意配置加上第二行，diskd.img是GOSFS文件挂载区域。
 

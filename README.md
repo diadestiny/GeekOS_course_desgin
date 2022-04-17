@@ -1,5 +1,5 @@
 # GeekOS (GOSFS文件系统)
-桂电2021年操作系统课设源码，主要实现了project5:GOSFS文件系统和project6:管道操作
+GUET 2021年操作系统课设源码，主要实现了project5:GOSFS文件系统和project6:管道操作
 
 > project origin : GUET_Operation_Course_Design
 >

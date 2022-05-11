@@ -22,7 +22,16 @@ GUET 2021年操作系统课设源码，主要实现了project5:GOSFS文件系统
 笔者运行环境：真机ubuntu16.04、gcc-5.4.0、nasm-2.08.2
 
 * 经过测试，若读者环境为ubuntu9虚拟机，make出错有可能需要对makefile的部分地方进行修改，以及模拟器配置文件.bochsrc进行部分修改。
-
+* 2022年5月更新：经过测试，本课设代码如果需要在vmware虚拟机无报错运行，需要满足安装以下条件：
+```
+//ubuntu-16.04.6-desktop-amd64.iso 虚拟机镜像为ubuntu16 (重点)
+//安装 gcc 5.4.0 (重点，ubuntu16自带的gcc 5.4.0)
+sudo apt-get install build-essential
+sudo apt-get install bochs
+sudo apt-get install bochs-x
+//nasm(2.08.2及以上)
+sudo apt-get install nasm
+```
 * 配置GOSFS文件系统需要重点注意：
 
     >ata0-master: type=disk, mode=flat, translation=auto, path="diskc.img"...

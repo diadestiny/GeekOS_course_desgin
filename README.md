@@ -31,7 +31,7 @@ GUET 2021年操作系统课设源码，主要实现了project5:GOSFS文件系统
 sudo apt-get install build-essential
 sudo apt-get install bochs
 sudo apt-get install bochs-x
-//nasm(2.08.2及以上)
+//nasm(2.08.2)
 sudo apt-get install nasm
 //以上环境安装完，本代码可以直接运行(build文件夹下已经编译好了)
 ```
@@ -44,6 +44,24 @@ sudo apt-get update
 //因为使用了-32指令，我的ubuntu16.04系统为64位的，无法直接编译执行32位机器指令
 sudo apt install libc6-dev-i386
 ```
+
+* 2022年5.25更新(nasm版本如果不是2.08.2，采用以下源码编译安装方法)
+```
+1. sudo apt-get remove nasm //卸载原先nasm
+2.安装nasm2.08.2
+//下载 https://www.nasm.us/pub/nasm/releasebuilds/2.08.02/nasm-2.08.02-xdoc.tar.gz nasm2.08.2源码
+tar -zxvf nasm-2.08.02.tar.gz //解压
+cd nasm-2.08.02
+./configure
+make
+sudo make install
+3.重新编译此geekos源码
+cd GeekOS_course_desgin-main/build
+make clean //清理原来编译文件
+make depend
+make
+```
+    
 * 配置GOSFS文件系统需要重点注意：
 
     >ata0-master: type=disk, mode=flat, translation=auto, path="diskc.img"...

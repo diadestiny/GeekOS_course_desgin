@@ -79,6 +79,10 @@ make
 
 > 只读PFAT文件系统位于/c路径下，区域为/ide0，可读写GOSFS文件系统位于/d路径下，区域为ide1
 
+启动GOSFS文件系统需要先输入以下两条指令：
+1.format ide1 gosfs
+2.mount ide1 /d gosfs
+
 * ls /c 
 * cat [file_path_name]
 * mkdir /d/[directory_name] 

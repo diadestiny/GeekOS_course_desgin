@@ -23,7 +23,7 @@ GUET 2021年操作系统课设源码，主要实现了project5:GOSFS文件系统
 * 2022年5月更新：经过测试，本课设代码如果需要在vmware虚拟机无报错运行，需要满足安装以下条件：
 
 >笔者采用的ubuntu真机或者虚拟机16.04安装镜像：
-链接：https://pan.baidu.com/s/1RS3Fp5whhO351Pjy1YuZFA
+链接：https://pan.baidu.com/s/1Wr0lsDlOA2b_UzuzUhYhJw 
 提取码：2156
 ```
 //ubuntu-16.04.6-desktop-amd64.iso 虚拟机镜像为ubuntu16 (重点)
